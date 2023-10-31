@@ -29,8 +29,6 @@ void setup() {
   }
 
   Serial.println("WiFi Connected");
-  ThingSpeak.begin(client);
-  dht.begin();
 }
 
 void loop() {
